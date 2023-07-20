@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ckone"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/suds"
+        android:gravity="center"
+        android:letterSpacing=".1"
+        android:shadowColor="#F17D7D"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/scfirst"
+        android:textAllCaps="true"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cktwo"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/suds"
+        android:gravity="center"
+        android:letterSpacing=".1"
+        android:shadowColor="#F17D7D"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/scsecond"
+        android:textAllCaps="true"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ckthree"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/suds"
+        android:gravity="center"
+        android:letterSpacing=".1"
+        android:shadowColor="#F17D7D"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/scthird"
+        android:textAllCaps="true"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

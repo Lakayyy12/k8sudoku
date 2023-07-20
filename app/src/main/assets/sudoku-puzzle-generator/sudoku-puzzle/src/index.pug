@@ -1,0 +1,38 @@
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+h1 Sudoku
+div.container
+  -var box=1
+  -var x;
+  while box<=9
+    -x = 'box-' 
+    -x += box
+    
+    if box==1||box==4||box==7
+      -col=1
+    else if box==2||box==5||box==8
+      -col=4
+    else
+      -col=7
+    
+    if box<=3
+      -row=1
+    else if box<=6
+      -row=4
+    else
+      -row=7
+    
+    - box++
+    div.big-box.box(class=x)
+      -r=row
+      while row<=r+2
+        -c=col
+        while col<=c+2
+          -x = 'row-' + row
+          -x += ' col-' + col
+          div.small-box.box(class=x)
+          -col++
+        -col=c
+        - row++
+      -row=r
+.loading-screen
+  .loading loading...
